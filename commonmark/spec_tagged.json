@@ -5,7 +5,8 @@
     "example": 1,
     "start_line": 356,
     "end_line": 361,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "indented-code-block"]
   },
   {
     "markdown": "  \tfoo\tbaz\t\tbim\n",
@@ -13,7 +14,8 @@
     "example": 2,
     "start_line": 363,
     "end_line": 368,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "indented-code-block"]
   },
   {
     "markdown": "    a\ta\n    ὐ\ta\n",
@@ -21,7 +23,8 @@
     "example": 3,
     "start_line": 370,
     "end_line": 377,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "indented-code-block"]
   },
   {
     "markdown": "  - foo\n\n\tbar\n",
@@ -29,7 +32,8 @@
     "example": 4,
     "start_line": 383,
     "end_line": 394,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "bullet-list-marker:-", "paragraph"]
   },
   {
     "markdown": "- foo\n\n\t\tbar\n",
@@ -37,7 +41,8 @@
     "example": 5,
     "start_line": 396,
     "end_line": 408,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "bullet-list-marker:-", "paragraph", "indented-code-block"]
   },
   {
     "markdown": ">\t\tfoo\n",
@@ -45,7 +50,8 @@
     "example": 6,
     "start_line": 419,
     "end_line": 426,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "block-quote-marker", "indented-code-block"]
   },
   {
     "markdown": "-\t\tfoo\n",
@@ -53,7 +59,8 @@
     "example": 7,
     "start_line": 428,
     "end_line": 437,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "bullet-list-marker:-", "indented-code-block"]
   },
   {
     "markdown": "    foo\n\tbar\n",
@@ -61,7 +68,8 @@
     "example": 8,
     "start_line": 440,
     "end_line": 447,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "indented-code-block"]
   },
   {
     "markdown": " - foo\n   - bar\n\t - baz\n",
@@ -69,7 +77,8 @@
     "example": 9,
     "start_line": 449,
     "end_line": 465,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "bullet-list-marker:-"]
   },
   {
     "markdown": "#\tFoo\n",
@@ -77,7 +86,8 @@
     "example": 10,
     "start_line": 467,
     "end_line": 471,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "atx-heading"]
   },
   {
     "markdown": "*\t*\t*\t\n",
@@ -85,7 +95,8 @@
     "example": 11,
     "start_line": 473,
     "end_line": 477,
-    "section": "Tabs"
+    "section": "Tabs",
+    "tags": ["tab", "thematic-break:*"]
   },
   {
     "markdown": "\\!\\\"\\#\\$\\%\\&\\'\\(\\)\\*\\+\\,\\-\\.\\/\\:\\;\\<\\=\\>\\?\\@\\[\\\\\\]\\^\\_\\`\\{\\|\\}\\~\n",
@@ -93,7 +104,8 @@
     "example": 12,
     "start_line": 490,
     "end_line": 494,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph"]
   },
   {
     "markdown": "\\\t\\A\\a\\ \\3\\φ\\«\n",
@@ -101,7 +113,8 @@
     "example": 13,
     "start_line": 500,
     "end_line": 504,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph"]
   },
   {
     "markdown": "\\*not emphasized*\n\\<br/> not a tag\n\\[not a link](/foo)\n\\`not code`\n1\\. not a list\n\\* not a list\n\\# not a heading\n\\[foo]: /url \"not a reference\"\n\\&ouml; not a character entity\n",
@@ -109,7 +122,8 @@
     "example": 14,
     "start_line": 510,
     "end_line": 530,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph"]
   },
   {
     "markdown": "\\\\*emphasis*\n",
@@ -117,7 +131,8 @@
     "example": 15,
     "start_line": 535,
     "end_line": 539,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph", "emphasis"]
   },
   {
     "markdown": "foo\\\nbar\n",
@@ -125,7 +140,8 @@
     "example": 16,
     "start_line": 544,
     "end_line": 550,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph", "hard-line-break"]
   },
   {
     "markdown": "`` \\[\\` ``\n",
@@ -133,7 +149,8 @@
     "example": 17,
     "start_line": 556,
     "end_line": 560,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph", "code-span"]
   },
   {
     "markdown": "    \\[\\]\n",
@@ -141,7 +158,8 @@
     "example": 18,
     "start_line": 563,
     "end_line": 568,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "indented-code-block"]
   },
   {
     "markdown": "~~~\n\\[\\]\n~~~\n",
@@ -149,7 +167,8 @@
     "example": 19,
     "start_line": 571,
     "end_line": 578,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "fenced-code-block:~"]
   },
   {
     "markdown": "<http://example.com?find=\\*>\n",
@@ -157,7 +176,8 @@
     "example": 20,
     "start_line": 581,
     "end_line": 585,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph", "autolink"]
   },
   {
     "markdown": "<a href=\"/bar\\/)\">\n",
@@ -165,7 +185,8 @@
     "example": 21,
     "start_line": 588,
     "end_line": 592,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "raw-html"]
   },
   {
     "markdown": "[foo](/bar\\* \"ti\\*tle\")\n",
@@ -173,7 +194,8 @@
     "example": 22,
     "start_line": 598,
     "end_line": 602,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph", "inline-link"]
   },
   {
     "markdown": "[foo]\n\n[foo]: /bar\\* \"ti\\*tle\"\n",
@@ -181,7 +203,8 @@
     "example": 23,
     "start_line": 605,
     "end_line": 611,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "paragraph", "reference-link"]
   },
   {
     "markdown": "``` foo\\+bar\nfoo\n```\n",
@@ -189,7 +212,8 @@
     "example": 24,
     "start_line": 614,
     "end_line": 621,
-    "section": "Backslash escapes"
+    "section": "Backslash escapes",
+    "tags": ["backslash-escape", "fenced-code-block:`"]
   },
   {
     "markdown": "&nbsp; &amp; &copy; &AElig; &Dcaron;\n&frac34; &HilbertSpace; &DifferentialD;\n&ClockwiseContourIntegral; &ngE;\n",
@@ -197,7 +221,8 @@
     "example": 25,
     "start_line": 650,
     "end_line": 658,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "paragraph"]
   },
   {
     "markdown": "&#35; &#1234; &#992; &#0;\n",
@@ -205,7 +230,8 @@
     "example": 26,
     "start_line": 669,
     "end_line": 673,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["decimal-character-reference", "paragraph"]
   },
   {
     "markdown": "&#X22; &#XD06; &#xcab;\n",
@@ -213,7 +239,8 @@
     "example": 27,
     "start_line": 682,
     "end_line": 686,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["hexadecimal-character-reference", "paragraph"]
   },
   {
     "markdown": "&nbsp &x; &#; &#x;\n&#87654321;\n&#abcdef0;\n&ThisIsNotDefined; &hi?;\n",
@@ -221,7 +248,8 @@
     "example": 28,
     "start_line": 691,
     "end_line": 701,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "decimal-character-reference", "hexadecimal-character-reference", "paragraph"]
   },
   {
     "markdown": "&copy\n",
@@ -229,7 +257,8 @@
     "example": 29,
     "start_line": 708,
     "end_line": 712,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "paragraph"]
   },
   {
     "markdown": "&MadeUpEntity;\n",
@@ -237,7 +266,8 @@
     "example": 30,
     "start_line": 718,
     "end_line": 722,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "paragraph"]
   },
   {
     "markdown": "<a href=\"&ouml;&ouml;.html\">\n",
@@ -245,7 +275,8 @@
     "example": 31,
     "start_line": 729,
     "end_line": 733,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "raw-html"]
   },
   {
     "markdown": "[foo](/f&ouml;&ouml; \"f&ouml;&ouml;\")\n",
@@ -253,7 +284,8 @@
     "example": 32,
     "start_line": 736,
     "end_line": 740,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "paragraph", "inline-link"]
   },
   {
     "markdown": "[foo]\n\n[foo]: /f&ouml;&ouml; \"f&ouml;&ouml;\"\n",
@@ -261,7 +293,8 @@
     "example": 33,
     "start_line": 743,
     "end_line": 749,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "paragraph", "reference-link"]
   },
   {
     "markdown": "``` f&ouml;&ouml;\nfoo\n```\n",
@@ -269,7 +302,8 @@
     "example": 34,
     "start_line": 752,
     "end_line": 759,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "fenced-code-block:`"]
   },
   {
     "markdown": "`f&ouml;&ouml;`\n",
@@ -277,7 +311,8 @@
     "example": 35,
     "start_line": 765,
     "end_line": 769,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "paragraph", "code-span"]
   },
   {
     "markdown": "    f&ouml;f&ouml;\n",
@@ -285,7 +320,8 @@
     "example": 36,
     "start_line": 772,
     "end_line": 777,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "indented-code-block"]
   },
   {
     "markdown": "&#42;foo&#42;\n*foo*\n",
@@ -293,7 +329,8 @@
     "example": 37,
     "start_line": 784,
     "end_line": 790,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["decimal-character-reference", "paragraph", "emphasis"]
   },
   {
     "markdown": "&#42; foo\n\n* foo\n",
@@ -301,7 +338,8 @@
     "example": 38,
     "start_line": 792,
     "end_line": 801,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["decimal-character-reference", "paragraph", "bullet-list-marker:*"]
   },
   {
     "markdown": "foo&#10;&#10;bar\n",
@@ -309,7 +347,8 @@
     "example": 39,
     "start_line": 803,
     "end_line": 809,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["decimal-character-reference", "paragraph"]
   },
   {
     "markdown": "&#9;foo\n",
@@ -317,7 +356,8 @@
     "example": 40,
     "start_line": 811,
     "end_line": 815,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["decimal-character-reference", "paragraph"]
   },
   {
     "markdown": "[a](url &quot;tit&quot;)\n",
@@ -325,7 +365,8 @@
     "example": 41,
     "start_line": 818,
     "end_line": 822,
-    "section": "Entity and numeric character references"
+    "section": "Entity and numeric character references",
+    "tags": ["entity-reference", "paragraph", "inline-link"]
   },
   {
     "markdown": "- `one\n- two`\n",
@@ -333,7 +374,8 @@
     "example": 42,
     "start_line": 841,
     "end_line": 849,
-    "section": "Precedence"
+    "section": "Precedence",
+    "tags": ["bullet-list-marker:-", "code-span"]
   },
   {
     "markdown": "***\n---\n___\n",
@@ -341,7 +383,8 @@
     "example": 43,
     "start_line": 880,
     "end_line": 888,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:*", "thematic-break:-", "thematic-break:_"]
   },
   {
     "markdown": "+++\n",
@@ -349,7 +392,8 @@
     "example": 44,
     "start_line": 893,
     "end_line": 897,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break", "paragraph"]
   },
   {
     "markdown": "===\n",
@@ -357,7 +401,8 @@
     "example": 45,
     "start_line": 900,
     "end_line": 904,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break", "paragraph"]
   },
   {
     "markdown": "--\n**\n__\n",
@@ -365,7 +410,8 @@
     "example": 46,
     "start_line": 909,
     "end_line": 917,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break", "paragraph"]
   },
   {
     "markdown": " ***\n  ***\n   ***\n",
@@ -373,7 +419,8 @@
     "example": 47,
     "start_line": 922,
     "end_line": 930,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:*"]
   },
   {
     "markdown": "    ***\n",
@@ -381,7 +428,8 @@
     "example": 48,
     "start_line": 935,
     "end_line": 940,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break", "indented-code-block"]
   },
   {
     "markdown": "Foo\n    ***\n",
@@ -389,7 +437,8 @@
     "example": 49,
     "start_line": 943,
     "end_line": 949,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break", "paragraph"]
   },
   {
     "markdown": "_____________________________________\n",
@@ -397,7 +446,8 @@
     "example": 50,
     "start_line": 954,
     "end_line": 958,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:_"]
   },
   {
     "markdown": " - - -\n",
@@ -405,7 +455,8 @@
     "example": 51,
     "start_line": 963,
     "end_line": 967,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:-"]
   },
   {
     "markdown": " **  * ** * ** * **\n",
@@ -413,7 +464,8 @@
     "example": 52,
     "start_line": 970,
     "end_line": 974,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:*"]
   },
   {
     "markdown": "-     -      -      -\n",
@@ -421,7 +473,8 @@
     "example": 53,
     "start_line": 977,
     "end_line": 981,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:-"]
   },
   {
     "markdown": "- - - -    \n",
@@ -429,7 +482,8 @@
     "example": 54,
     "start_line": 986,
     "end_line": 990,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:-"]
   },
   {
     "markdown": "_ _ _ _ a\n\na------\n\n---a---\n",
@@ -437,7 +491,8 @@
     "example": 55,
     "start_line": 995,
     "end_line": 1005,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break", "paragraph"]
   },
   {
     "markdown": " *-*\n",
@@ -445,7 +500,8 @@
     "example": 56,
     "start_line": 1011,
     "end_line": 1015,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break", "paragraph", "emphasis"]
   },
   {
     "markdown": "- foo\n***\n- bar\n",
@@ -453,7 +509,8 @@
     "example": 57,
     "start_line": 1020,
     "end_line": 1032,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:*", "bullet-list-marker:-"]
   },
   {
     "markdown": "Foo\n***\nbar\n",
@@ -461,7 +518,8 @@
     "example": 58,
     "start_line": 1037,
     "end_line": 1045,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:*", "paragraph"]
   },
   {
     "markdown": "Foo\n---\nbar\n",
@@ -469,7 +527,8 @@
     "example": 59,
     "start_line": 1054,
     "end_line": 1061,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break", "setext-heading:-", "paragraph"]
   },
   {
     "markdown": "* Foo\n* * *\n* Bar\n",
@@ -477,7 +536,8 @@
     "example": 60,
     "start_line": 1067,
     "end_line": 1079,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:*", "bullet-list-marker:*"]
   },
   {
     "markdown": "- Foo\n- * * *\n",
@@ -485,7 +545,8 @@
     "example": 61,
     "start_line": 1084,
     "end_line": 1094,
-    "section": "Thematic breaks"
+    "section": "Thematic breaks",
+    "tags": ["thematic-break:*", "bullet-list-marker:-"]
   },
   {
     "markdown": "# foo\n## foo\n### foo\n#### foo\n##### foo\n###### foo\n",
@@ -493,7 +554,8 @@
     "example": 62,
     "start_line": 1113,
     "end_line": 1127,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": "####### foo\n",
@@ -501,7 +563,8 @@
     "example": 63,
     "start_line": 1132,
     "end_line": 1136,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "paragraph"]
   },
   {
     "markdown": "#5 bolt\n\n#hashtag\n",
@@ -509,7 +572,8 @@
     "example": 64,
     "start_line": 1147,
     "end_line": 1154,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "paragraph"]
   },
   {
     "markdown": "\\## foo\n",
@@ -517,7 +581,8 @@
     "example": 65,
     "start_line": 1159,
     "end_line": 1163,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "paragraph", "backslash-escape"]
   },
   {
     "markdown": "# foo *bar* \\*baz\\*\n",
@@ -525,7 +590,8 @@
     "example": 66,
     "start_line": 1168,
     "end_line": 1172,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "emphasis", "backslash-escape"]
   },
   {
     "markdown": "#                  foo                     \n",
@@ -533,7 +599,8 @@
     "example": 67,
     "start_line": 1177,
     "end_line": 1181,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": " ### foo\n  ## foo\n   # foo\n",
@@ -541,7 +608,8 @@
     "example": 68,
     "start_line": 1186,
     "end_line": 1194,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": "    # foo\n",
@@ -549,7 +617,8 @@
     "example": 69,
     "start_line": 1199,
     "end_line": 1204,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "indented-code-block"]
   },
   {
     "markdown": "foo\n    # bar\n",
@@ -557,7 +626,8 @@
     "example": 70,
     "start_line": 1207,
     "end_line": 1213,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "paragraph"]
   },
   {
     "markdown": "## foo ##\n  ###   bar    ###\n",
@@ -565,7 +635,8 @@
     "example": 71,
     "start_line": 1218,
     "end_line": 1224,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": "# foo ##################################\n##### foo ##\n",
@@ -573,7 +644,8 @@
     "example": 72,
     "start_line": 1229,
     "end_line": 1235,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": "### foo ###     \n",
@@ -581,7 +653,8 @@
     "example": 73,
     "start_line": 1240,
     "end_line": 1244,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": "### foo ### b\n",
@@ -589,7 +662,8 @@
     "example": 74,
     "start_line": 1251,
     "end_line": 1255,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": "# foo#\n",
@@ -597,7 +671,8 @@
     "example": 75,
     "start_line": 1260,
     "end_line": 1264,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": "### foo \\###\n## foo #\\##\n# foo \\#\n",
@@ -605,7 +680,8 @@
     "example": 76,
     "start_line": 1270,
     "end_line": 1278,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "backslash-escape"]
   },
   {
     "markdown": "****\n## foo\n****\n",
@@ -613,7 +689,8 @@
     "example": 77,
     "start_line": 1284,
     "end_line": 1292,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "thematic-break:*"]
   },
   {
     "markdown": "Foo bar\n# baz\nBar foo\n",
@@ -621,7 +698,8 @@
     "example": 78,
     "start_line": 1295,
     "end_line": 1303,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading", "paragraph"]
   },
   {
     "markdown": "## \n#\n### ###\n",
@@ -629,7 +707,8 @@
     "example": 79,
     "start_line": 1308,
     "end_line": 1316,
-    "section": "ATX headings"
+    "section": "ATX headings",
+    "tags": ["atx-heading"]
   },
   {
     "markdown": "Foo *bar*\n=========\n\nFoo *bar*\n---------\n",
@@ -637,7 +716,8 @@
     "example": 80,
     "start_line": 1351,
     "end_line": 1360,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:=", "setext-heading:-", "emphasis"]
   },
   {
     "markdown": "Foo *bar\nbaz*\n====\n",
@@ -645,7 +725,8 @@
     "example": 81,
     "start_line": 1365,
     "end_line": 1372,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:=", "emphasis"]
   },
   {
     "markdown": "  Foo *bar\nbaz*\t\n====\n",
@@ -653,7 +734,8 @@
     "example": 82,
     "start_line": 1379,
     "end_line": 1386,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:=", "emphasis"]
   },
   {
     "markdown": "Foo\n-------------------------\n\nFoo\n=\n",
@@ -661,7 +743,8 @@
     "example": 83,
     "start_line": 1391,
     "end_line": 1400,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "setext-heading:="]
   },
   {
     "markdown": "   Foo\n---\n\n  Foo\n-----\n\n  Foo\n  ===\n",
@@ -669,7 +752,8 @@
     "example": 84,
     "start_line": 1406,
     "end_line": 1419,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "setext-heading:="]
   },
   {
     "markdown": "    Foo\n    ---\n\n    Foo\n---\n",
@@ -677,7 +761,8 @@
     "example": 85,
     "start_line": 1424,
     "end_line": 1437,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "indented-code-block"]
   },
   {
     "markdown": "Foo\n   ----      \n",
@@ -685,7 +770,8 @@
     "example": 86,
     "start_line": 1443,
     "end_line": 1448,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-"]
   },
   {
     "markdown": "Foo\n    ---\n",
@@ -693,7 +779,8 @@
     "example": 87,
     "start_line": 1453,
     "end_line": 1459,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "paragraph"]
   },
   {
     "markdown": "Foo\n= =\n\nFoo\n--- -\n",
@@ -701,7 +788,8 @@
     "example": 88,
     "start_line": 1464,
     "end_line": 1475,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:=", "setext-heading:-", "paragraph"]
   },
   {
     "markdown": "Foo  \n-----\n",
@@ -709,7 +797,8 @@
     "example": 89,
     "start_line": 1480,
     "end_line": 1485,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-"]
   },
   {
     "markdown": "Foo\\\n----\n",
@@ -717,7 +806,8 @@
     "example": 90,
     "start_line": 1490,
     "end_line": 1495,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "backslash-escape"]
   },
   {
     "markdown": "`Foo\n----\n`\n\n<a title=\"a lot\n---\nof dashes\"/>\n",
@@ -725,7 +815,8 @@
     "example": 91,
     "start_line": 1501,
     "end_line": 1514,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "code-span", "paragraph", "raw-html"]
   },
   {
     "markdown": "> Foo\n---\n",
@@ -733,7 +824,8 @@
     "example": 92,
     "start_line": 1520,
     "end_line": 1528,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "block-quote-marker", "paragraph"]
   },
   {
     "markdown": "> foo\nbar\n===\n",
@@ -741,7 +833,8 @@
     "example": 93,
     "start_line": 1531,
     "end_line": 1541,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:=", "block-quote-marker", "paragraph"]
   },
   {
     "markdown": "- Foo\n---\n",
@@ -749,7 +842,8 @@
     "example": 94,
     "start_line": 1544,
     "end_line": 1552,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "bullet-list-marker:-", "thematic-break:-"]
   },
   {
     "markdown": "Foo\nBar\n---\n",
@@ -757,7 +851,8 @@
     "example": 95,
     "start_line": 1559,
     "end_line": 1566,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-"]
   },
   {
     "markdown": "---\nFoo\n---\nBar\n---\nBaz\n",
@@ -765,7 +860,8 @@
     "example": 96,
     "start_line": 1572,
     "end_line": 1584,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "thematic-break", "paragraph"]
   },
   {
     "markdown": "\n====\n",
@@ -773,7 +869,8 @@
     "example": 97,
     "start_line": 1589,
     "end_line": 1594,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:=", "paragraph"]
   },
   {
     "markdown": "---\n---\n",
@@ -781,7 +878,8 @@
     "example": 98,
     "start_line": 1601,
     "end_line": 1607,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "thematic-break:-"]
   },
   {
     "markdown": "- foo\n-----\n",
@@ -789,7 +887,8 @@
     "example": 99,
     "start_line": 1610,
     "end_line": 1618,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "bullet-list-marker:-", "thematic-break:-"]
   },
   {
     "markdown": "    foo\n---\n",
@@ -797,7 +896,8 @@
     "example": 100,
     "start_line": 1621,
     "end_line": 1628,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "indented-code-block", "thematic-break:-"]
   },
   {
     "markdown": "> foo\n-----\n",
@@ -805,7 +905,8 @@
     "example": 101,
     "start_line": 1631,
     "end_line": 1639,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "block-quote-marker", "thematic-break:-"]
   },
   {
     "markdown": "\\> foo\n------\n",
@@ -813,7 +914,8 @@
     "example": 102,
     "start_line": 1645,
     "end_line": 1650,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "backslash-escape", "block-quote-marker"]
   },
   {
     "markdown": "Foo\n\nbar\n---\nbaz\n",
@@ -821,7 +923,8 @@
     "example": 103,
     "start_line": 1676,
     "end_line": 1686,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "paragraph"]
   },
   {
     "markdown": "Foo\nbar\n\n---\n\nbaz\n",
@@ -829,7 +932,8 @@
     "example": 104,
     "start_line": 1692,
     "end_line": 1704,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "paragraph", "thematic-break:-"]
   },
   {
     "markdown": "Foo\nbar\n* * *\nbaz\n",
@@ -837,7 +941,8 @@
     "example": 105,
     "start_line": 1710,
     "end_line": 1720,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading", "paragraph", "thematic-break:*"]
   },
   {
     "markdown": "Foo\nbar\n\\---\nbaz\n",
@@ -845,7 +950,8 @@
     "example": 106,
     "start_line": 1725,
     "end_line": 1735,
-    "section": "Setext headings"
+    "section": "Setext headings",
+    "tags": ["setext-heading:-", "paragraph", "thematic-break:-", "backslash-escape"]
   },
   {
     "markdown": "    a simple\n      indented code block\n",
